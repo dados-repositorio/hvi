@@ -2,7 +2,7 @@ html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100%;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
 body{
     background-color: blanchedalmond;
     height: 100%;
