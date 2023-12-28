@@ -32,14 +32,29 @@ header{
     color: rgb(44, 36, 23);
 }
 th{
-    width: auto;
+    width: 100%;
     text-align: left;
     font-size: 8pt;
 }
+table{
+    width: 100%;
+    /*background-color: rgb(3, 73, 73);*/
+}
+form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 article{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     margin-top: 50px;
-    width: 32%;
-    height: 200px;
+    width: 90%;
+    height: auto;
     /*background-color: aquamarine;*/
 }
 footer{
@@ -66,6 +81,13 @@ a{
     background-color: rgb(133, 116, 91);
 }
 input{
+    width: 99%;
+    height: 35px;
+}
+td{
     width: 100%;
+}
+input[type="submit"]{
+    width: 100px;
 }
 }
