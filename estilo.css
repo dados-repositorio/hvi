@@ -4,14 +4,15 @@ html{
 }
 @media screen and (max-width: 800px) {
 body{
-    background-color: blanchedalmond;
+    background-color: #14241f;
     height: 100%;
     overflow: hidden;
 }
 #corpo{
     width: 100%;
     height: 90%;
-    background-color: #FFF;
+    background-color: #ffffff;
+    border: solid 0.5px #cecece;
     border-radius: 5px;
 }
 .conteudo{
@@ -28,8 +29,8 @@ header{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
     height: 60px;
-    background-color: rgb(216, 196, 166);
-    color: rgb(44, 36, 23);
+    background-color: #00b484;
+    color: rgb(255, 255, 255);
 }
 th{
     width: 100%;
@@ -73,8 +74,9 @@ a{
     align-items: center;
     width: 150px;
     height: 35px;
-    background-color: rgb(216, 196, 166);
+    background-color: #00af80;
     border-radius: 5px;
+    color: #FFF;
 }
 .menu:hover{
     transition: 0.5s;
